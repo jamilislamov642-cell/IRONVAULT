@@ -1,0 +1,13 @@
+[package]
+name = "ironvault-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.2", features = ["derive"] }
+ironvault_core = { path = "../ironvault-core" }
+anyhow = "1.0"
+
+[[bin]]
+name = "ironvault"
+path = "src/main.rs"

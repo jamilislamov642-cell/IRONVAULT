@@ -1,0 +1,12 @@
+[package]
+name = "db"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "db"
+path = "src/lib.rs"
+
+[dependencies]
+rusqlite = { version = "0.28", features = ["bundled"] }
+

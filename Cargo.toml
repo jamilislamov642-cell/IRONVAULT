@@ -1,0 +1,9 @@
+# Rust workspace for IRONVAULT
+
+[workspace]
+members = [
+    "crates/crypto",
+    "crates/db",
+    "crates/ironvault-core",
+    "crates/cli"
+]

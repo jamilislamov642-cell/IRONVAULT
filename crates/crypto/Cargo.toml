@@ -1,0 +1,19 @@
+[package]
+name = "crypto"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "crypto"
+path = "src/lib.rs"
+
+[dependencies]
+argon2 = "0.4"
+chacha20poly1305 = { version = "0.10", features = ["xchacha20"] }
+hkdf = "0.12"
+rand = "0.8"
+zeroize = "1.5"
+secrecy = "0.8"
+
+[dev-dependencies]
+hex = "0.4"
