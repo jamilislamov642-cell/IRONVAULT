@@ -7,6 +7,9 @@ edition = "2021"
 clap = { version = "4.2", features = ["derive"] }
 ironvault_core = { path = "../ironvault-core" }
 anyhow = "1.0"
+rpassword = "7.0"
+rusqlite = { version = "0.28", features = ["bundled"] }
+uuid = "1.4"
 
 [[bin]]
 name = "ironvault"

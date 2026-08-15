@@ -1,0 +1,15 @@
+*** Begin Patch
+*** Add File: app/tauri.conf.json
++{
++  "package": {
++    "productName": "IRONVAULT",
++    "version": "0.1.0"
++  },
++  "tauri": {
++    "bundle": {
++      "identifier": "com.example.ironvault"
++    }
++  }
++}
++
+*** End Patch
